@@ -1,3 +1,8 @@
+import '@/app/ui/global.css';
+import { jetbrainsMono } from '@/app/ui/fonts';
+
+import { Header } from '@/components/Header';
+
 export default function RootLayout({
   children,
 }: {
@@ -5,7 +10,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={`${jetbrainsMono.className} antialiased`}>
+      <Header/>
+      {children}</body>
     </html>
   );
 }
