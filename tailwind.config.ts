@@ -18,6 +18,9 @@ const config: Config = {
 		lg: "960px",
 		xl: "1200px",
 	},
+	// fontFamily: {
+	// 	primary: "var(--font-jetnrainsMono)"
+	// },
   	extend: {
   		gridTemplateColumns: {
   			'13': 'repeat(13, minmax(0, 1fr))'

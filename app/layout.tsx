@@ -1,5 +1,5 @@
 import '@/app/ui/global.css';
-import { jetbrainsMono } from '@/app/ui/fonts';
+import { jetbrainsMono, inter, firaCode } from '@/app/ui/fonts';
 
 import { Header } from '@/components/Header';
 import { PageTransition } from '@/components/PageTransition';
@@ -12,7 +12,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${jetbrainsMono.className} antialiased`}>
+      <body className={`${firaCode.className} antialiased`}>
       <Header/>
       <StairTransition/>
       <PageTransition>{children}</PageTransition>
