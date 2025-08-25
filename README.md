@@ -1,5 +1,6 @@
-## Next.js App Router Course - Starter
+## Next.js Example Portfolio
 
-This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
+Example portfolio using [Nextjs](https://nextjs.org/).
 
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
+I have followed [this tutorial](https://www.youtube.com/watch?v=dImgZ_AH7uA&ab_channel=CristianMihai).
+
