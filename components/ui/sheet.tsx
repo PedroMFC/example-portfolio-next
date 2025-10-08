@@ -65,7 +65,7 @@ const SheetContent = React.forwardRef<
       {...props}
     >
       <SheetPrimitive.DialogTitle></SheetPrimitive.DialogTitle>
-      <SheetPrimitive.Close className="absolute right-8 top-8 transition-opacity outline-none">
+      <SheetPrimitive.Close className="absolute right-8 top-8 transition-opacity outline-hidden">
         <IoMdClose  className="text-3xl text-accent" />
         <span className="sr-only">Close</span>
       </SheetPrimitive.Close>

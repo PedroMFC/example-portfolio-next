@@ -67,7 +67,7 @@ export default function Work() {
         className="min-h-[80vh] flex flex-col justify-center py-12 xl:px-0">
         <div className="container mx-auto">
             <div className="flex flex-col xl:flex-row xl:gap-[30px]">
-                <div className="w-full xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-between order-2 xl:order-none">
+                <div className="w-full xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-between order-2 xl:order-0">
                     <div className="flex flex-col gap-[30px]">
                         {/* outline-num */}
                         <div className="text-8xl leading-none fontext-extrabold text-transparent text-outline">{project.num}</div>
@@ -138,7 +138,7 @@ export default function Work() {
                         })}
                         {/* slider buttons */}
                         <WorkSliderBtns 
-                            containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)] xl:bottom-0 z-20 w-full justify-between xl:w-max xl:justify-none"
+                            containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%-22px)] xl:bottom-0 z-20 w-full justify-between xl:w-max xl:justify-none"
                             btnStyles="bg-accent hover:bg-accent-hover text-primary text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all"
                         />
                     </Swiper>
